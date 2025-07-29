@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jong Syah Tech | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fbfc;
+      color: #4b5b6b;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(to right, #4b5b6b, #5e7a96);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #1f4037;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #4b5b6b;
+      margin-top: 8px;
+    }
+
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      padding: 25px;
+      margin-bottom: 25px;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #1a2c3b;
+    }
+
+    .project p {
+      font-size: 0.95rem;
+      color: #4b5b6b;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: 600;
+      color: #1f4037;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #203a43;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jong Syah Tech</h1>
+    <p>Frontend Developer | Clean, Fast & Responsive Websites</p>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Jong, a frontend developer and founder of Jong Syah Tech. I build clean, responsive websites with a strong focus on user experience and performance. My stack includes HTML, CSS, JavaScript, and a touch of Laravel when needed. I turn concepts into beautiful, functional web interfaces — ready to help you stand out online.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Photography Portfolio Website</h3>
+        <p>Modern, fullscreen gallery-based site for showcasing photography works. Built with HTML, CSS Grid, and vanilla JS.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Online Course Landing Page</h3>
+        <p>Conversion-focused landing page for a digital course platform. Features modern layout, mobile-first design, and optimized assets.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Minimal Resume Website</h3>
+        <p>Simple, elegant single-page resume site for personal branding. Designed for speed and clarity using pure HTML/CSS.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jongsyahtech@gmail.com">jongsyahtech@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/JongSyah-Tech/Profile">github.com/jongsyah</a></p>
+      <p>Fiverr: <a href="https://fiverr.com/jongsyahtech" target="_blank">fiverr.com/jongsyahtech</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Jong Syah Tech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
